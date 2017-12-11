@@ -3,12 +3,12 @@ $(document).ready(function() {
       event.preventDefault();
       var number = parseInt($("input#number").val());
       var result = place(number);
-      $("#result").text(result);
+      $(".append").text(result);
     });
   });
   var place = function(number) {
     if (number % 3 === 0) {
-      return ping;
+      $(".append").append("<li>"+"ping"+"</li>")
     } else {
       return false;
     }
