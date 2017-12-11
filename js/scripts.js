@@ -13,3 +13,10 @@ $(document).ready(function() {
       return false;
     }
   };
+  var place = function(number) {
+    if (number % 5 === 0) {
+      $(".append").append("<li>"+"pong"+"</li>")
+    } else {
+      return false;
+    }
+  };
