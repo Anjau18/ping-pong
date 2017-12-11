@@ -13,4 +13,8 @@
 .blue{
     color:blue;
 }
-
+.col-md-7{
+    background-image: url(../img/download.jpeg);
+    background-repeat: no-repeat;
+    width:100%;
+}
